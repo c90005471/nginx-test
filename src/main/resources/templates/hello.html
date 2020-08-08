@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    sessionId:<span th:text="${#httpSession.getId()}"></span>
+    <h1>这是订单服务页面，端口号8000</h1>
+    <img th:src="@{/image/111.jpg}">
+</body>
+</html>
